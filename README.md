@@ -25,3 +25,15 @@ ventas y operaciones relacionadas. Forma parte de un proyecto académico con fin
    ```bash
    git clone https://github.com/tuUsuario/pos-frontend.git
    cd pos-frontend
+2. **Instalar las dependencias:**:
+   ```bash
+   npm install
+3. **Iniciar entorno de desarrollo:**:
+   ```bash
+   npm run dev
+4. **Acceder desde el navegador:**:
+   ```bash
+   http://localhost:3000
+5. **El backend debera estar corriendo localmente:**:
+   ```bash
+   [http://localhost:3000](http://localhost/Proyecto2/api_titular/public/api/ (ajustable en el plugin api.js))
