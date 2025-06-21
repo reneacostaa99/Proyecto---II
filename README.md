@@ -101,11 +101,14 @@ permitiendo controlar los movimientos tanto de stock como monetarios del mismo.
    php artisan migrate --seed
 
 ⚙️ Scripts Útiles
-Comando	Descripción
-php artisan serve	Inicia servidor local
-php artisan migrate	Aplica las migraciones
-npm run dev	Compila recursos con Vite
-npm run build	Compila versión de producción
+| Comando                    | Descripción                   |
+| -------------------------- | ----------------------------- |
+| `php artisan serve`        | Inicia servidor local         |
+| `php artisan migrate`      | Aplica las migraciones        |
+| `php artisan key:generate` | Genera clave de aplicación    |
+| `npm run dev`              | Compila recursos con Vite     |
+| `npm run build`            | Compila versión de producción |
+
 
 👨‍💻 Autores
 
