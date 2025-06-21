@@ -27,36 +27,38 @@ permitiendo controlar los movimientos tanto de stock como monetarios del mismo.
 - **MySQL** – Base de datos principal
 ---
 
-📦 Estructura del proyecto/
-├── frontend/                          # Cliente web - Nuxt.js (Vue 2)
-│   ├── assets/                        # Archivos estáticos sin compilar (CSS, fuentes, imágenes)
-│   ├── components/                    # Componentes Vue reutilizables
-│   ├── layouts/                       # Estructuras visuales compartidas (dashboard, login, etc.)
-│   ├── pages/                         # Vistas principales (rutas)
-│   ├── plugins/                       # Instancias Axios personalizadas: api.js, printer.js
-│   ├── static/                        # Archivos públicos (favicon, imágenes)
-│   ├── store/                         # Vuex Store (activado automáticamente)
-│   ├── models/                        # Tipos, DTOs y respuestas de API
-│   ├── config/                        # Configuraciones globales (endpoints, etc.)
-│   ├── routes/                        # Definición de rutas (si aplica)
-│   ├── nuxt.config.js                 # Configuración principal de Nuxt
-│   └── package.json                   # Dependencias del frontend
+```plaintext
+📁 Estructura del proyecto/
+├── frontend/ # Cliente web - Nuxt.js (Vue 2)
+│ ├── assets/ # Archivos estáticos (CSS, fuentes, imágenes)
+│ ├── components/ # Componentes Vue reutilizables
+│ ├── layouts/ # Layouts generales (dashboard, login, etc.)
+│ ├── pages/ # Rutas de la app
+│ ├── plugins/ # Axios personalizado (api.js, printer.js)
+│ ├── static/ # Archivos públicos (favicon, imágenes)
+│ ├── store/ # Vuex store (activación automática)
+│ ├── models/ # Tipos, DTOs y respuestas de API
+│ ├── config/ # Configuraciones generales
+│ ├── routes/ # Definición de rutas (si aplica)
+│ ├── nuxt.config.js # Configuración principal de Nuxt
+│ └── package.json # Dependencias del frontend
 │
-├── backend/                           # Servidor - Laravel 9 (API REST)
-│   ├── app/                           # Lógica de negocio (Modelos, Controladores, Providers)
-│   ├── bootstrap/                     # Archivos de arranque de Laravel
-│   ├── config/                        # Configuración de paquetes y del framework
-│   ├── database/                      # Migraciones, Seeders y Factories
-│   ├── public/                        # Punto de entrada para el servidor web (index.php)
-│   ├── resources/                     # Vistas Blade y assets compilables (si aplica)
-│   ├── routes/                        # api.php (rutas de la API) y web.php (opcional)
-│   ├── storage/                       # Archivos temporales, logs, etc.
-│   ├── tests/                         # Pruebas unitarias y de integración
-│   ├── .env                           # Variables de entorno (no subir al repo)
-│   ├── artisan                        # CLI de Laravel
-│   ├── composer.json                  # Dependencias PHP
-│   ├── package.json                   # Vite y herramientas JS (si se usa Vite)
-│   └── vite.config.js                 # Configuración de Vite para Laravel
+├── backend/ # Servidor - Laravel 9 (API REST)
+│ ├── app/ # Modelos, Controladores, Providers
+│ ├── bootstrap/ # Archivos de arranque
+│ ├── config/ # Configuraciones de Laravel
+│ ├── database/ # Migraciones, Seeders y Factories
+│ ├── public/ # Punto de entrada para servidor web
+│ ├── resources/ # Vistas Blade (si se usan)
+│ ├── routes/ # api.php (API) y web.php (opcional)
+│ ├── storage/ # Logs, caché, archivos temporales
+│ ├── tests/ # Pruebas automatizadas
+│ ├── .env # Variables de entorno
+│ ├── artisan # CLI de Laravel
+│ ├── composer.json # Dependencias PHP
+│ ├── package.json # Scripts JS y Vite (si se usa)
+│ └── vite.config.js # Configuración de Vite para Laravel
+```
 
 
 ## 📦 Instalación Frontend
