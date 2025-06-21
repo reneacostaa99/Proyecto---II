@@ -1,9 +1,10 @@
 # 🖥️ Siste de gestión comercial - Electronica Arielito.
 
-Eete proyecto corresponde al sistema registro y gestion de la empresa Electronica Arielito, desarrollado como parte del proyecto final de grado.
+Este proyecto corresponde al sistema registro y gestion de la empresa Electronica Arielito, desarrollado como parte del proyecto final de grado.
 
 El sistema permite administrar los registros de inventario, compra, ventas, clientes, metricas, facturaciín etc, dando un salto de calidad al negocio
 permitiendo controlar los movimientos tanto de stock como monetarios del mismo.
+
 ---
 
 ## 🚀 Tecnologías Utilizadas
