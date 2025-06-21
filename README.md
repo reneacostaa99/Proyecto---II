@@ -59,14 +59,12 @@ permitiendo controlar los movimientos tanto de stock como monetarios del mismo.
 │ ├── package.json # Scripts JS y Vite (si se usa)
 │ └── vite.config.js # Configuración de Vite para Laravel
 ```
-
-
 ## 📦 Instalación Frontend
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tuUsuario/pos-frontend.git
-   cd pos-frontend
+   git clone https://github.com/tuUsuario/
+   Proyecto---II.git
 2. **Instalar las dependencias:**:
    ```bash
    npm install
@@ -101,9 +99,6 @@ permitiendo controlar los movimientos tanto de stock como monetarios del mismo.
 5. **Ejecutá las migraciones y seeders**:
    ```bash
    php artisan migrate --seed
-   
-🔐 Autenticación
-Se utiliza Laravel Sanctum para autenticación basada en tokens. El cliente (frontend) debe enviar el token en los headers:
 
 ⚙️ Scripts Útiles
 Comando	Descripción
@@ -113,5 +108,7 @@ npm run dev	Compila recursos con Vite
 npm run build	Compila versión de producción
 
 👨‍💻 Autores
+
 **Rene Acosta**
+
 **Ariel Bogado**
