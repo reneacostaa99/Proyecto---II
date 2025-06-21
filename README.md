@@ -16,7 +16,7 @@ permitiendo controlar los movimientos tanto de stock como monetarios del mismo.
 - **Font Awesome** – Íconos integrados
 - **Soft UI Dashboard** (plantilla visual integrada)
 - **Plugins JS externos** (Chart.js, Dropzone, Dragula, etc.)
-- 
+ 
 - **Backend**
 - **Laravel 9**
 - **PHP 8.0+**
